@@ -1,0 +1,22 @@
+<attack name="Cause physical harm to human beings or property">
+    <operator type="OR">
+        <attack name="Circumvent safety features">
+            <operator type="OR">
+                <attack name="Spoof sensor data"></attack>
+                <attack name="Exploit weakness in software"></attack>
+                <attack name="Modify firmware"></attack>
+            </operator>
+        </attack>
+        <attack name="Cause damage">
+            <operator type="OR">
+                <attack name="Induce collision"></attack>
+                <attack name="Trigger action">
+                    <operator type="OR">
+                        <attack name="Impersonate operator"></attack>
+                        <attack name="Take advantage of behavior"></attack>
+                    </operator>
+                </attack>
+            </operator>
+        </attack>
+    </operator>
+</attack>

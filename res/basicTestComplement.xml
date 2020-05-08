@@ -1,0 +1,14 @@
+<attack name="Cause damage">
+    <operator type="OR">
+        <attack name="Induce collision"></attack>
+        <attack name="Trigger action">
+            <operator type="OR">
+                <attack name="Impersonate operator"></attack>
+                <attack name="Take advantage of behavior"></attack>
+                <attack name="Manger des bananes"></attack>
+                <attack name="J'aime mon chat"></attack>
+                <attack name="Hello there"></attack>
+            </operator>
+        </attack>
+    </operator>
+</attack>
